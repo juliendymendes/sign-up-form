@@ -1,0 +1,47 @@
+.index-link-login{
+    width: 11rem;
+    height: 2.8rem;
+    margin-bottom: 1rem;
+
+    color: #EAE2E2;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+
+    border: 1px solid #2A8BCF;
+    border-radius: 30px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all .3s ease-in-out;
+}
+
+.index-link-login:hover{
+    background: #166CA9;
+}
+
+.index-link-register{
+    background: #2A8BCF;
+    width: 11rem;
+    height: 2.8rem;
+    
+
+    color: #EAE2E2;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all .3s ease-in-out;
+}
+
+.index-link-register:hover{
+    background: #166CA9;
+}

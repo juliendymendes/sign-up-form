@@ -1,0 +1,35 @@
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    background-color: #D7D7D7;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 2rem;
+    padding: 0 0.5rem;
+    color: #484747;
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.button{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background: #2A8BCF;
+    color: #EAE2E2;
+    font-size: 1.4rem;
+    border: none ;
+    border-radius: 32px;
+    transition: all .3s ease-in-out;
+    text-align: center;
+}
+
+.button:hover{
+    background: #166CA9;
+}
